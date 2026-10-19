@@ -6,12 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "next": "15.5.12",
     "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react-dom": "19.1.1",
+    "@supabase/supabase-js": "2.57.0"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
