@@ -16,7 +16,7 @@ profiles:{title:"Klienci",readonly:true,fields:[{k:"full_name",label:"Imię i na
 bookings:{title:"Rezerwacje",readonly:true,fields:[{k:"session_id",label:"Termin"},{k:"user_id",label:"ID klienta"},{k:"status",label:"Status"}]},
 customer_passes:{title:"Karnety klientów",readonly:true,fields:[{k:"user_id",label:"ID klienta"},{k:"pass_type_id",label:"Karnet"},{k:"remaining_entries",label:"Pozostałe wejścia"},{k:"status",label:"Status"}]}
 };
-const client=process.env.NEXT_PUBLIC_SUPABASE_URL&&process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?createClient(process.env.NEXT_PUBLIC_SUPABASE_URL,process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY):null;
+const client=process.env.NEXT_PUBLIC_SUPABASE_URL&&(process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)?createClient(process.env.NEXT_PUBLIC_SUPABASE_URL,(process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY)):null;
 const getMessage=(e:unknown)=>e instanceof Error?e.message:String(e);
 const val=(v:unknown)=>v===null||v===undefined?"—":typeof v==="boolean"?(v?"Tak":"Nie"):String(v);
 const plTime=(iso:unknown)=>typeof iso==="string"?new Date(iso).toLocaleString("pl-PL",{dateStyle:"short",timeStyle:"short"}):"—";
