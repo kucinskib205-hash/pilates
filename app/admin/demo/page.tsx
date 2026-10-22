@@ -1,6 +1,6 @@
 "use client";
 import {useState} from "react";
-import "../admin/admin.css";
+import "../admin.css";
 type Item={id:number;name:string;detail:string;price?:number;active:boolean};
 type Tab="Grafik"|"Zajęcia"|"Instruktorzy"|"Karnety"|"Ustawienia";
 const initial:Record<Tab,Item[]>={
