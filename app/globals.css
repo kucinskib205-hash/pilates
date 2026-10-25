@@ -78,3 +78,73 @@
   .weekSwitcher{gap:8px}
   .weekSwitcher span{font-size:11px}
 }
+
+/* NAMI PILATES CLUB — brand system from supplied identity board */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+main{--ivory:#F7F4ED;--sand:#E8DDCF;--beige:#CDBBA8;--taupe:#9B887B;--espresso:#4A3A2F;--green:var(--espresso)!important;background:var(--ivory);color:var(--espresso);font-family:'Montserrat',Arial,sans-serif}
+main button,main a{font-family:'Montserrat',Arial,sans-serif}
+main .nav{background:var(--ivory);border-bottom:1px solid #d9cdc0;min-height:100px}
+main .brand{gap:12px;color:var(--espresso);font:400 38px 'Playfair Display',Georgia,serif;letter-spacing:.1em;text-transform:lowercase}
+main .brand>span{line-height:.95}
+main .brand small{font:500 9px 'Montserrat',sans-serif;letter-spacing:.38em;margin-top:11px;text-align:left}
+main .mark{background:transparent;color:var(--espresso);border-radius:0;font:400 47px 'Playfair Display',serif;width:48px;height:45px;padding:0;transform:rotate(-8deg)}
+main .nav nav{font-size:11px;letter-spacing:.07em;color:var(--espresso)}
+main .navButton{background:transparent;border:1px solid var(--espresso);color:var(--espresso);font-weight:500;letter-spacing:.04em}
+main .hero{max-width:none;grid-template-columns:1.03fr .97fr;min-height:640px}
+main .heroText{background:var(--ivory);padding:110px 10% 85px 13%}
+main .eyebrow{font:600 10px 'Montserrat',sans-serif;letter-spacing:.27em;color:var(--taupe)}
+main .dot{background:var(--taupe)}
+main h1,main h2{color:var(--espresso);font-family:'Playfair Display',Georgia,serif}
+main h1{font-size:clamp(58px,5.8vw,96px);letter-spacing:-.035em;line-height:1.1}
+main h1 em,main h2 em,main .heroText h1 em,main .sectionTop h2 em{color:var(--taupe);font-style:italic}
+main .heroText>p{color:#74675e;font-size:13px;line-height:2;max-width:440px}
+main .primary{background:var(--espresso)!important;color:var(--ivory);border-radius:2px;padding:18px 26px;font-weight:500;letter-spacing:.07em}
+main .textLink{color:var(--espresso);font-weight:500}
+main .heroNumbers{border-top:1px solid #d8ccc0;margin-top:50px;padding-top:23px;gap:50px}
+main .heroNumbers strong{font-weight:600;color:var(--espresso)}
+main .heroNumbers span{color:var(--taupe)}
+main .heroVisual{background:linear-gradient(140deg,#e8ddcf 0%,#cdbba8 65%,#ad9988 100%);min-height:640px}
+main .heroQuote{font-size:clamp(65px,7vw,118px);letter-spacing:.07em;line-height:1.05;color:var(--ivory);font-weight:400}
+main .heroQuote em{font-size:.28em;letter-spacing:.33em;font-family:'Montserrat',sans-serif;font-style:normal;display:inline-block;margin-top:20px}
+main .visualBadge{background:var(--ivory);color:var(--espresso);font-size:10px;letter-spacing:.18em;border-radius:0;bottom:30px;left:30px}
+main .schedule{background:#fffdf9}
+main .sectionTop h2,main .about h2{font-size:clamp(43px,4.4vw,68px)}
+main .schedulePanel{border:1px solid #dfd4c9;border-radius:0}
+main .panelHead{border-color:#e5dbd1}
+main .day{background:var(--ivory);color:var(--espresso);border-radius:0}
+main .day.selected{background:var(--espresso);color:white}
+main .filter{background:transparent;color:var(--espresso);border:1px solid #ded3c8;border-radius:0}
+main .filter.active{background:var(--sand);border-color:var(--beige);color:var(--espresso)}
+main .weekSwitcher{border-color:#ded3c8;border-radius:0}
+main .weekSwitcher button{background:var(--sand);border-radius:0}
+main .session{border-color:#eee7df}
+main .typeTag{background:var(--ivory);color:var(--taupe);border-radius:0}
+main .available,main .instructor,main .panelFooter{color:var(--taupe)}
+main .progress i{background:var(--taupe)}
+main .book{color:var(--espresso);border:1px solid var(--beige);border-radius:0;background:transparent}
+main .book:hover:not(:disabled){border-color:var(--espresso);color:var(--espresso)}
+main .panelFooter{background:var(--ivory)}
+main .aboutGraphic{background:var(--sand);color:var(--espresso);font-size:clamp(45px,5vw,80px);line-height:1.4}
+main .aboutGraphic em{color:var(--taupe)}
+main .aboutCopy{background:var(--ivory)}
+main .aboutCopy p{color:#74675e}
+main footer{background:var(--sand);color:var(--espresso)}
+main .modal{border-radius:0;background:var(--ivory)}
+main .modalNote{background:var(--sand);color:var(--espresso)}
+@media(max-width:760px){
+ main .nav{min-height:77px;padding:13px 5%}
+ main .brand{font-size:28px;gap:6px}
+ main .brand small{font-size:7px;letter-spacing:.3em;margin-top:7px}
+ main .mark{font-size:35px;width:36px;height:36px}
+ main .nav nav{font-size:11px}
+ main .hero{min-height:0}
+ main .heroText{padding:62px 7% 54px}
+ main h1{font-size:clamp(47px,10vw,70px)}
+ main .heroVisual{min-height:340px}
+ main .heroQuote{font-size:clamp(56px,13vw,90px)}
+ main .heroNumbers{gap:25px}
+ main .schedule{padding:65px 5%}
+ main .aboutGraphic{min-height:270px}
+ main .aboutCopy{padding:60px 7%}
+}
+@media(max-width:380px){main .brand{font-size:24px}main .navButton{font-size:9px}main h1{font-size:45px}}
