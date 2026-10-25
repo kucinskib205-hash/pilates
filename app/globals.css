@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 :root{--ink:#252b24;--muted:#777c72;--green:#465a45;--paper:#f9f8f4;--pale:#eef0e9;--line:#e5e8df}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',Arial,sans-serif}button,a{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}.nav{height:91px;display:flex;align-items:center;justify-content:space-between;padding:0 max(6%,calc((100% - 1240px)/2));background:#fff}.brand{display:flex;align-items:center;gap:12px;font-size:18px;font-weight:700;letter-spacing:.17em}.brand small{display:block;font-size:8px;letter-spacing:.37em;text-align:center;font-weight:500;margin-top:3px}.mark{height:40px;width:40px;background:var(--green);color:white;border-radius:50%;display:grid;place-items:center;font:italic 26px 'Playfair Display',serif;letter-spacing:0;padding-bottom:5px}.nav nav{display:flex;gap:38px;color:#5d6258;font-size:13px}.navButton{padding:13px 20px;border:1px solid #d9ddd3;border-radius:25px;font-size:12px;font-weight:700}.navButton span,.primary span{margin-left:14px}.hero{max-width:1400px;margin:auto;display:grid;grid-template-columns:1.02fr .98fr;min-height:580px}.heroText{padding:101px 8% 70px 12%;display:flex;flex-direction:column;align-items:start}.eyebrow{font-size:10px;font-weight:700;letter-spacing:.19em;color:#788a72}.dot{display:inline-block;width:7px;height:7px;background:#869e7f;border-radius:50%;margin-right:8px}h1,h2,p{margin-top:0}h1,h2{font-family:'Playfair Display',Georgia,serif;font-weight:400}h1{font-size:clamp(48px,4.5vw,76px);line-height:1.17;margin:32px 0 22px;letter-spacing:-.037em}h1 em,h2 em{color:#7e9578;font-weight:400}.heroText>p{font-size:14px;line-height:1.9;color:var(--muted);max-width:435px}.heroActions{display:flex;align-items:center;gap:30px;margin-top:26px}.primary{background:#445b45;color:#fff;display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:6px;padding:17px 25px;font-size:12px;font-weight:700}.textLink{font-size:12px;font-weight:700;color:#475b45}.heroNumbers{display:flex;gap:45px;margin-top:auto;padding-top:60px}.heroNumbers div{display:flex;flex-direction:column;gap:6px}.heroNumbers strong{font-size:12px}.heroNumbers span{font-size:11px;color:#92978b}.heroVisual{position:relative;overflow:hidden;min-height:580px;background:linear-gradient(138deg,#e1e8da 0%,#b4c3a8 60%,#91a78a 100%);display:flex;align-items:center;justify-content:center}.circle{border:1px solid #ffffff76;border-radius:50%;position:absolute;aspect-ratio:1}.circle1{width:75%;transform:rotate(-30deg) scaleX(1.34)}.circle2{width:105%;transform:rotate(28deg) scaleX(.6)}.heroQuote{font:400 clamp(38px,5vw,78px) 'Playfair Display',serif;color:#fafaf4;text-align:center;line-height:1.12;z-index:1;letter-spacing:-.04em}.heroQuote em{font-weight:400}.visualBadge{position:absolute;bottom:33px;left:36px;background:#ffffffdb;border-radius:99px;padding:11px 17px;color:#455944;font-size:11px;letter-spacing:.04em}.schedule{padding:100px max(6%,calc((100% - 1170px)/2));background:#fff}.sectionTop{display:flex;justify-content:space-between;align-items:end;margin-bottom:35px;gap:20px}.sectionTop h2,.about h2{font-size:clamp(39px,4vw,56px);margin:14px 0 13px}.sectionTop p,.aboutCopy p{font-size:13px;color:var(--muted);line-height:1.8}.weekSwitcher{display:flex;align-items:center;gap:18px;border:1px solid var(--line);border-radius:8px;padding:8px}.weekSwitcher button{background:#f5f6f1;border:0;border-radius:5px;width:33px;height:33px}.weekSwitcher span{min-width:144px;text-align:center;font-size:12px;font-weight:700}.schedulePanel{border:1px solid var(--line);border-radius:12px;overflow:hidden}.panelHead{padding:25px 27px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center}.days{display:flex;gap:8px}.day{display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;width:56px;height:65px;border:0;background:#f5f6f2;border-radius:7px;color:#7a8174}.day span{font-size:11px}.day strong{font-size:18px}.day.selected{background:#475e49;color:#fff}.filters{display:flex;gap:6px}.filter{padding:10px 14px;border-radius:30px;border:1px solid var(--line);color:#7d857a;background:white;font-size:11px}.filter.active{background:#ebf0e8;color:#405b42;border-color:#dfe9da;font-weight:700}.session{display:flex;align-items:center;padding:23px 30px;border-bottom:1px solid #edf0ea;gap:20px}.time{font-size:19px;font-weight:700;width:92px}.time span{display:block;font-size:11px;color:#9da397;font-weight:400;margin-top:5px}.sessionMain{flex:1}.sessionName{font-weight:700;font-size:14px}.typeTag{display:inline-block;margin-left:10px;border-radius:20px;padding:5px 9px;color:#6b8269;background:#eef2eb;font-size:10px;font-weight:500}.instructor{font-size:11px;color:#959b91;margin-top:8px}.capacity{width:145px}.capacity>span{font-size:11px}.available{color:#538254}.full{color:#a98772}.progress{width:115px;background:#eff1eb;border-radius:3px;height:4px;margin-top:11px}.progress i{display:block;height:100%;background:#8ba58b;border-radius:3px}.book{border:1px solid #aabaaa;border-radius:6px;background:white;color:#455f45;padding:13px 19px;font-size:11px;font-weight:700;min-width:120px}.book:disabled{background:#f4f5f2;border-color:#e7e9e5;color:#a2a6a0;cursor:not-allowed}.panelFooter{padding:17px 29px;background:#f8faf6;color:#879183;font-size:11px;display:flex;gap:11px}.empty{padding:45px;text-align:center;color:#838b80;font-size:13px}.notice{margin-top:20px}.about{display:grid;grid-template-columns:1fr 1fr;min-height:410px}.aboutGraphic{background:#e7e9df;display:flex;align-items:center;justify-content:center;font:48px 'Playfair Display',serif;color:#80927b;text-align:center}.aboutGraphic em{color:#596e57}.aboutCopy{padding:75px 15% 65px 13%;background:#f3f4ed}.aboutCopy p{max-width:430px;margin:22px 0}footer{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:35px 6%;background:white;color:#7f887b;font-size:11px}.overlay{position:fixed;inset:0;background:#19231998;z-index:10;display:grid;place-items:center;padding:20px}.modal{position:relative;background:white;border-radius:13px;padding:42px;width:min(100%,460px);box-shadow:0 15px 60px #0002}.modal h2{font-size:33px;margin:18px 0}.modal p{font-size:13px;color:#7b8679;line-height:1.7}.modalNote{background:#f2f5ef;border-radius:8px;padding:15px;font-size:12px;line-height:1.6;color:#536a51;margin:25px 0}.close{position:absolute;right:17px;top:12px;border:0;background:none;font-size:28px;color:#667461}.modalButton{width:100%}@media(max-width:900px){.hero{grid-template-columns:1fr 1fr}.heroText{padding:70px 7%}.heroNumbers{gap:15px}.panelHead{align-items:start;flex-direction:column}.days{width:100%;justify-content:space-between}.schedule{padding:70px 5%}.nav{padding:0 5%}.nav nav{gap:15px}}@media(max-width:650px){.nav{height:74px}.nav nav{display:none}.navButton{padding:11px;font-size:10px}.hero{display:flex;flex-direction:column}.heroText{padding:60px 7%}.heroVisual{min-height:280px}.heroNumbers{padding-top:45px}.sectionTop{flex-direction:column;align-items:start}.panelHead{padding:14px}.days{gap:3px}.day{width:calc((100vw - 72px)/7);max-width:55px;height:58px}.filters{width:100%;justify-content:space-between}.filter{flex:1}.session{padding:18px;flex-wrap:wrap;gap:12px}.time{width:75px}.sessionMain{width:calc(100% - 90px);flex:auto}.capacity{width:calc(50% - 6px)}.book{width:calc(50% - 6px)}.about{grid-template-columns:1fr}.aboutGraphic{min-height:230px}.aboutCopy{padding:60px 7%}footer{flex-wrap:wrap}h1{font-size:52px}.heroQuote{font-size:46px}}
 
 /* Studio brand color, controlled by admin site settings */
@@ -79,72 +79,61 @@
   .weekSwitcher span{font-size:11px}
 }
 
-/* NAMI PILATES CLUB — brand system from supplied identity board */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-main{--ivory:#F7F4ED;--sand:#E8DDCF;--beige:#CDBBA8;--taupe:#9B887B;--espresso:#4A3A2F;--green:var(--espresso)!important;background:var(--ivory);color:var(--espresso);font-family:'Montserrat',Arial,sans-serif}
-main button,main a{font-family:'Montserrat',Arial,sans-serif}
-main .nav{background:var(--ivory);border-bottom:1px solid #d9cdc0;min-height:100px}
-main .brand{gap:12px;color:var(--espresso);font:400 38px 'Playfair Display',Georgia,serif;letter-spacing:.1em;text-transform:lowercase}
-main .brand>span{line-height:.95}
-main .brand small{font:500 9px 'Montserrat',sans-serif;letter-spacing:.38em;margin-top:11px;text-align:left}
-main .mark{background:transparent;color:var(--espresso);border-radius:0;font:400 47px 'Playfair Display',serif;width:48px;height:45px;padding:0;transform:rotate(-8deg)}
-main .nav nav{font-size:11px;letter-spacing:.07em;color:var(--espresso)}
-main .navButton{background:transparent;border:1px solid var(--espresso);color:var(--espresso);font-weight:500;letter-spacing:.04em}
-main .hero{max-width:none;grid-template-columns:1.03fr .97fr;min-height:640px}
-main .heroText{background:var(--ivory);padding:110px 10% 85px 13%}
-main .eyebrow{font:600 10px 'Montserrat',sans-serif;letter-spacing:.27em;color:var(--taupe)}
-main .dot{background:var(--taupe)}
-main h1,main h2{color:var(--espresso);font-family:'Playfair Display',Georgia,serif}
-main h1{font-size:clamp(58px,5.8vw,96px);letter-spacing:-.035em;line-height:1.1}
-main h1 em,main h2 em,main .heroText h1 em,main .sectionTop h2 em{color:var(--taupe);font-style:italic}
-main .heroText>p{color:#74675e;font-size:13px;line-height:2;max-width:440px}
-main .primary{background:var(--espresso)!important;color:var(--ivory);border-radius:2px;padding:18px 26px;font-weight:500;letter-spacing:.07em}
-main .textLink{color:var(--espresso);font-weight:500}
-main .heroNumbers{border-top:1px solid #d8ccc0;margin-top:50px;padding-top:23px;gap:50px}
-main .heroNumbers strong{font-weight:600;color:var(--espresso)}
-main .heroNumbers span{color:var(--taupe)}
-main .heroVisual{background:linear-gradient(140deg,#e8ddcf 0%,#cdbba8 65%,#ad9988 100%);min-height:640px}
-main .heroQuote{font-size:clamp(65px,7vw,118px);letter-spacing:.07em;line-height:1.05;color:var(--ivory);font-weight:400}
-main .heroQuote em{font-size:.28em;letter-spacing:.33em;font-family:'Montserrat',sans-serif;font-style:normal;display:inline-block;margin-top:20px}
-main .visualBadge{background:var(--ivory);color:var(--espresso);font-size:10px;letter-spacing:.18em;border-radius:0;bottom:30px;left:30px}
-main .schedule{background:#fffdf9}
-main .sectionTop h2,main .about h2{font-size:clamp(43px,4.4vw,68px)}
-main .schedulePanel{border:1px solid #dfd4c9;border-radius:0}
-main .panelHead{border-color:#e5dbd1}
-main .day{background:var(--ivory);color:var(--espresso);border-radius:0}
-main .day.selected{background:var(--espresso);color:white}
-main .filter{background:transparent;color:var(--espresso);border:1px solid #ded3c8;border-radius:0}
-main .filter.active{background:var(--sand);border-color:var(--beige);color:var(--espresso)}
-main .weekSwitcher{border-color:#ded3c8;border-radius:0}
-main .weekSwitcher button{background:var(--sand);border-radius:0}
-main .session{border-color:#eee7df}
-main .typeTag{background:var(--ivory);color:var(--taupe);border-radius:0}
-main .available,main .instructor,main .panelFooter{color:var(--taupe)}
-main .progress i{background:var(--taupe)}
-main .book{color:var(--espresso);border:1px solid var(--beige);border-radius:0;background:transparent}
-main .book:hover:not(:disabled){border-color:var(--espresso);color:var(--espresso)}
-main .panelFooter{background:var(--ivory)}
-main .aboutGraphic{background:var(--sand);color:var(--espresso);font-size:clamp(45px,5vw,80px);line-height:1.4}
-main .aboutGraphic em{color:var(--taupe)}
-main .aboutCopy{background:var(--ivory)}
-main .aboutCopy p{color:#74675e}
-main footer{background:var(--sand);color:var(--espresso)}
-main .modal{border-radius:0;background:var(--ivory)}
-main .modalNote{background:var(--sand);color:var(--espresso)}
+
+/* NAMI brand: one consistent palette and typography system */
+:root{--ink:#4A3A2F;--muted:#78695E;--green:#4A3A2F;--paper:#F7F4ED;--pale:#E8DDCF;--line:#D9CCBF}
+body{background:var(--paper);color:var(--ink);font-family:'Montserrat',Arial,sans-serif}
+button,a,input,select{font-family:'Montserrat',Arial,sans-serif}
+h1,h2,.aboutGraphic,.heroQuote{font-family:'Playfair Display',Georgia,serif}
+.nav{background:var(--paper);border-bottom:1px solid var(--line)}
+.brand{font:400 33px 'Playfair Display',Georgia,serif;letter-spacing:.1em;text-transform:lowercase;color:var(--ink);gap:9px}
+.brand small{font:500 8px 'Montserrat',sans-serif;letter-spacing:.33em;text-align:left;margin-top:8px}
+.mark{background:transparent;color:var(--ink);border-radius:0;font:400 42px 'Playfair Display',serif;width:43px;height:43px;padding:0}
+.nav nav{color:var(--ink);font-size:12px}
+.navButton{border-radius:2px;border-color:var(--ink);color:var(--ink);background:transparent}
+.hero{max-width:none;grid-template-columns:1fr 1fr}
+.heroText{background:var(--paper)}
+.eyebrow{color:#8D7768;letter-spacing:.22em}
+.dot{background:#9B887B}
+h1,h2{color:var(--ink)}
+h1 em,h2 em,.heroText h1 em,.sectionTop h2 em{color:#9B887B;font-style:italic}
+.heroText>p,.sectionTop p,.aboutCopy p{color:var(--muted)}
+.primary,.hero .primary,.modal .primary{background:#4A3A2F;color:#F7F4ED;border-radius:2px;border-color:#4A3A2F}
+.textLink{color:var(--ink)}
+.heroNumbers strong{color:var(--ink)}
+.heroNumbers span{color:var(--muted)}
+.heroVisual{background:linear-gradient(135deg,#E8DDCF,#CDBBA8);color:var(--ink)}
+.heroQuote{color:#F7F4ED;font-size:clamp(56px,6vw,92px);letter-spacing:.04em}
+.heroQuote em{font:500 .23em 'Montserrat',sans-serif;letter-spacing:.24em;font-style:normal}
+.visualBadge{background:var(--paper);color:var(--ink);border-radius:2px}
+.schedule{background:#FFFCF8}
+.schedulePanel{border-color:var(--line);border-radius:3px}
+.panelHead,.session{border-color:var(--line)}
+.weekSwitcher{border-color:var(--line)}
+.weekSwitcher button,.day{background:var(--paper);color:var(--ink)}
+.day.selected{background:var(--ink);color:white}
+.filter{border-radius:3px;border-color:var(--line);color:var(--ink)}
+.filter.active{background:var(--pale);color:var(--ink);border-color:#CDBBA8}
+.typeTag{background:var(--paper);color:var(--muted);border-radius:2px}
+.instructor,.available{color:var(--muted)}
+.book{border-radius:2px;color:var(--ink);border-color:#CDBBA8}
+.book:hover:not(:disabled){color:var(--ink);border-color:var(--ink)}
+.panelFooter{background:var(--paper);color:var(--muted)}
+.aboutGraphic{background:var(--pale);color:var(--ink)}
+.aboutGraphic em{color:#9B887B}
+.aboutCopy{background:var(--paper)}
+footer{background:var(--pale);color:var(--ink)}
+.modal{border-radius:4px;background:var(--paper)}
+.modalNote{background:var(--pale);color:var(--ink)}
 @media(max-width:760px){
- main .nav{min-height:77px;padding:13px 5%}
- main .brand{font-size:28px;gap:6px}
- main .brand small{font-size:7px;letter-spacing:.3em;margin-top:7px}
- main .mark{font-size:35px;width:36px;height:36px}
- main .nav nav{font-size:11px}
- main .hero{min-height:0}
- main .heroText{padding:62px 7% 54px}
- main h1{font-size:clamp(47px,10vw,70px)}
- main .heroVisual{min-height:340px}
- main .heroQuote{font-size:clamp(56px,13vw,90px)}
- main .heroNumbers{gap:25px}
- main .schedule{padding:65px 5%}
- main .aboutGraphic{min-height:270px}
- main .aboutCopy{padding:60px 7%}
+ .nav{min-height:76px}
+ .brand{font-size:27px;gap:5px}
+ .brand small{font-size:7px}
+ .mark{font-size:33px;width:35px;height:35px}
+ .hero{display:flex;flex-direction:column}
+ .heroText{padding:56px 7%}
+ h1{font-size:clamp(42px,9vw,62px)}
+ .heroVisual{min-height:310px}
+ .heroQuote{font-size:clamp(53px,12vw,83px)}
 }
-@media(max-width:380px){main .brand{font-size:24px}main .navButton{font-size:9px}main h1{font-size:45px}}
+@media(max-width:380px){.brand{font-size:23px}.navButton{font-size:10px}}
